@@ -1,0 +1,1212 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="loadAlbumsBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>483, 27</value>
+  </data>
+  <data name="loadAlbumsBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 37</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="loadAlbumsBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="loadAlbumsBtn.Text" xml:space="preserve">
+    <value>Load Albums</value>
+  </data>
+  <data name="&gt;&gt;loadAlbumsBtn.Name" xml:space="preserve">
+    <value>loadAlbumsBtn</value>
+  </data>
+  <data name="&gt;&gt;loadAlbumsBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loadAlbumsBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;loadAlbumsBtn.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 81</value>
+  </data>
+  <data name="dataGridView1.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1018, 240</value>
+  </data>
+  <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
+    <value>dataGridView1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="searchBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1166, 27</value>
+  </data>
+  <data name="searchBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 37</value>
+  </data>
+  <data name="searchBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="searchBtn.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;searchBtn.Name" xml:space="preserve">
+    <value>searchBtn</value>
+  </data>
+  <data name="&gt;&gt;searchBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;searchBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;searchBtn.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="searchField.Location" type="System.Drawing.Point, System.Drawing">
+    <value>684, 32</value>
+  </data>
+  <data name="searchField.Size" type="System.Drawing.Size, System.Drawing">
+    <value>476, 27</value>
+  </data>
+  <data name="searchField.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;searchField.Name" xml:space="preserve">
+    <value>searchField</value>
+  </data>
+  <data name="&gt;&gt;searchField.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;searchField.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;searchField.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="pictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1465, 81</value>
+  </data>
+  <data name="pictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 240</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox.Name" xml:space="preserve">
+    <value>pictureBox</value>
+  </data>
+  <data name="&gt;&gt;pictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btn_Insert.Name" xml:space="preserve">
+    <value>btn_Insert</value>
+  </data>
+  <data name="&gt;&gt;btn_Insert.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Insert.Parent" xml:space="preserve">
+    <value>addAlbumGroup</value>
+  </data>
+  <data name="&gt;&gt;btn_Insert.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Description.Name" xml:space="preserve">
+    <value>txtBx_Description</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Description.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Description.Parent" xml:space="preserve">
+    <value>addAlbumGroup</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Description.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtBx_ImageUrl.Name" xml:space="preserve">
+    <value>txtBx_ImageUrl</value>
+  </data>
+  <data name="&gt;&gt;txtBx_ImageUrl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBx_ImageUrl.Parent" xml:space="preserve">
+    <value>addAlbumGroup</value>
+  </data>
+  <data name="&gt;&gt;txtBx_ImageUrl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Year.Name" xml:space="preserve">
+    <value>txtBx_Year</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Year.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Year.Parent" xml:space="preserve">
+    <value>addAlbumGroup</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Year.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Artist.Name" xml:space="preserve">
+    <value>txtBx_Artist</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Artist.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Artist.Parent" xml:space="preserve">
+    <value>addAlbumGroup</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Artist.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtBx_AlbumName.Name" xml:space="preserve">
+    <value>txtBx_AlbumName</value>
+  </data>
+  <data name="&gt;&gt;txtBx_AlbumName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBx_AlbumName.Parent" xml:space="preserve">
+    <value>addAlbumGroup</value>
+  </data>
+  <data name="&gt;&gt;txtBx_AlbumName.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;descriptionLbl.Name" xml:space="preserve">
+    <value>descriptionLbl</value>
+  </data>
+  <data name="&gt;&gt;descriptionLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;descriptionLbl.Parent" xml:space="preserve">
+    <value>addAlbumGroup</value>
+  </data>
+  <data name="&gt;&gt;descriptionLbl.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;imageUrlLbl.Name" xml:space="preserve">
+    <value>imageUrlLbl</value>
+  </data>
+  <data name="&gt;&gt;imageUrlLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imageUrlLbl.Parent" xml:space="preserve">
+    <value>addAlbumGroup</value>
+  </data>
+  <data name="&gt;&gt;imageUrlLbl.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;yearLbl.Name" xml:space="preserve">
+    <value>yearLbl</value>
+  </data>
+  <data name="&gt;&gt;yearLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;yearLbl.Parent" xml:space="preserve">
+    <value>addAlbumGroup</value>
+  </data>
+  <data name="&gt;&gt;yearLbl.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;artistNameLbl.Name" xml:space="preserve">
+    <value>artistNameLbl</value>
+  </data>
+  <data name="&gt;&gt;artistNameLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;artistNameLbl.Parent" xml:space="preserve">
+    <value>addAlbumGroup</value>
+  </data>
+  <data name="&gt;&gt;artistNameLbl.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;albumNameLbl.Name" xml:space="preserve">
+    <value>albumNameLbl</value>
+  </data>
+  <data name="&gt;&gt;albumNameLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;albumNameLbl.Parent" xml:space="preserve">
+    <value>addAlbumGroup</value>
+  </data>
+  <data name="&gt;&gt;albumNameLbl.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="addAlbumGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 81</value>
+  </data>
+  <data name="addAlbumGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>389, 240</value>
+  </data>
+  <data name="addAlbumGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="addAlbumGroup.Text" xml:space="preserve">
+    <value>Add Album</value>
+  </data>
+  <data name="&gt;&gt;addAlbumGroup.Name" xml:space="preserve">
+    <value>addAlbumGroup</value>
+  </data>
+  <data name="&gt;&gt;addAlbumGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addAlbumGroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;addAlbumGroup.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btn_Insert.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 205</value>
+  </data>
+  <data name="btn_Insert.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 29</value>
+  </data>
+  <data name="btn_Insert.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btn_Insert.Text" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="&gt;&gt;btn_Insert.Name" xml:space="preserve">
+    <value>btn_Insert</value>
+  </data>
+  <data name="&gt;&gt;btn_Insert.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Insert.Parent" xml:space="preserve">
+    <value>addAlbumGroup</value>
+  </data>
+  <data name="&gt;&gt;btn_Insert.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtBx_Description.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 164</value>
+  </data>
+  <data name="txtBx_Description.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 27</value>
+  </data>
+  <data name="txtBx_Description.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Description.Name" xml:space="preserve">
+    <value>txtBx_Description</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Description.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Description.Parent" xml:space="preserve">
+    <value>addAlbumGroup</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Description.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtBx_ImageUrl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 130</value>
+  </data>
+  <data name="txtBx_ImageUrl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 27</value>
+  </data>
+  <data name="txtBx_ImageUrl.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtBx_ImageUrl.Name" xml:space="preserve">
+    <value>txtBx_ImageUrl</value>
+  </data>
+  <data name="&gt;&gt;txtBx_ImageUrl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBx_ImageUrl.Parent" xml:space="preserve">
+    <value>addAlbumGroup</value>
+  </data>
+  <data name="&gt;&gt;txtBx_ImageUrl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtBx_Year.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 96</value>
+  </data>
+  <data name="txtBx_Year.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 27</value>
+  </data>
+  <data name="txtBx_Year.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Year.Name" xml:space="preserve">
+    <value>txtBx_Year</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Year.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Year.Parent" xml:space="preserve">
+    <value>addAlbumGroup</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Year.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtBx_Artist.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 62</value>
+  </data>
+  <data name="txtBx_Artist.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 27</value>
+  </data>
+  <data name="txtBx_Artist.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Artist.Name" xml:space="preserve">
+    <value>txtBx_Artist</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Artist.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Artist.Parent" xml:space="preserve">
+    <value>addAlbumGroup</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Artist.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtBx_AlbumName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 28</value>
+  </data>
+  <data name="txtBx_AlbumName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 27</value>
+  </data>
+  <data name="txtBx_AlbumName.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtBx_AlbumName.Name" xml:space="preserve">
+    <value>txtBx_AlbumName</value>
+  </data>
+  <data name="&gt;&gt;txtBx_AlbumName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBx_AlbumName.Parent" xml:space="preserve">
+    <value>addAlbumGroup</value>
+  </data>
+  <data name="&gt;&gt;txtBx_AlbumName.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="descriptionLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="descriptionLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="descriptionLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 167</value>
+  </data>
+  <data name="descriptionLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="descriptionLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="descriptionLbl.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="&gt;&gt;descriptionLbl.Name" xml:space="preserve">
+    <value>descriptionLbl</value>
+  </data>
+  <data name="&gt;&gt;descriptionLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;descriptionLbl.Parent" xml:space="preserve">
+    <value>addAlbumGroup</value>
+  </data>
+  <data name="&gt;&gt;descriptionLbl.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="imageUrlLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="imageUrlLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="imageUrlLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 133</value>
+  </data>
+  <data name="imageUrlLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 20</value>
+  </data>
+  <data name="imageUrlLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="imageUrlLbl.Text" xml:space="preserve">
+    <value>Image Url</value>
+  </data>
+  <data name="&gt;&gt;imageUrlLbl.Name" xml:space="preserve">
+    <value>imageUrlLbl</value>
+  </data>
+  <data name="&gt;&gt;imageUrlLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imageUrlLbl.Parent" xml:space="preserve">
+    <value>addAlbumGroup</value>
+  </data>
+  <data name="&gt;&gt;imageUrlLbl.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="yearLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="yearLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="yearLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 99</value>
+  </data>
+  <data name="yearLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="yearLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="yearLbl.Text" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="&gt;&gt;yearLbl.Name" xml:space="preserve">
+    <value>yearLbl</value>
+  </data>
+  <data name="&gt;&gt;yearLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;yearLbl.Parent" xml:space="preserve">
+    <value>addAlbumGroup</value>
+  </data>
+  <data name="&gt;&gt;yearLbl.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="artistNameLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="artistNameLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="artistNameLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 65</value>
+  </data>
+  <data name="artistNameLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="artistNameLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="artistNameLbl.Text" xml:space="preserve">
+    <value>Artist</value>
+  </data>
+  <data name="&gt;&gt;artistNameLbl.Name" xml:space="preserve">
+    <value>artistNameLbl</value>
+  </data>
+  <data name="&gt;&gt;artistNameLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;artistNameLbl.Parent" xml:space="preserve">
+    <value>addAlbumGroup</value>
+  </data>
+  <data name="&gt;&gt;artistNameLbl.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="albumNameLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="albumNameLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="albumNameLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 31</value>
+  </data>
+  <data name="albumNameLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 20</value>
+  </data>
+  <data name="albumNameLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="albumNameLbl.Text" xml:space="preserve">
+    <value>Album Name</value>
+  </data>
+  <data name="&gt;&gt;albumNameLbl.Name" xml:space="preserve">
+    <value>albumNameLbl</value>
+  </data>
+  <data name="&gt;&gt;albumNameLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;albumNameLbl.Parent" xml:space="preserve">
+    <value>addAlbumGroup</value>
+  </data>
+  <data name="&gt;&gt;albumNameLbl.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lbl_TrackList.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_TrackList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 340</value>
+  </data>
+  <data name="lbl_TrackList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 20</value>
+  </data>
+  <data name="lbl_TrackList.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lbl_TrackList.Text" xml:space="preserve">
+    <value>Track List</value>
+  </data>
+  <data name="&gt;&gt;lbl_TrackList.Name" xml:space="preserve">
+    <value>lbl_TrackList</value>
+  </data>
+  <data name="&gt;&gt;lbl_TrackList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_TrackList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_TrackList.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="dataGrid_TrackList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 363</value>
+  </data>
+  <data name="dataGrid_TrackList.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="dataGrid_TrackList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>773, 256</value>
+  </data>
+  <data name="dataGrid_TrackList.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;dataGrid_TrackList.Name" xml:space="preserve">
+    <value>dataGrid_TrackList</value>
+  </data>
+  <data name="&gt;&gt;dataGrid_TrackList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGrid_TrackList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGrid_TrackList.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btn_DeleteTrack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 625</value>
+  </data>
+  <data name="btn_DeleteTrack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 29</value>
+  </data>
+  <data name="btn_DeleteTrack.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btn_DeleteTrack.Text" xml:space="preserve">
+    <value>Delete Selected Track</value>
+  </data>
+  <data name="&gt;&gt;btn_DeleteTrack.Name" xml:space="preserve">
+    <value>btn_DeleteTrack</value>
+  </data>
+  <data name="&gt;&gt;btn_DeleteTrack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_DeleteTrack.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_DeleteTrack.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Number.Name" xml:space="preserve">
+    <value>txtBx_Number</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Number.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Number.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Number.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ComboBx_AlbumID.Name" xml:space="preserve">
+    <value>ComboBx_AlbumID</value>
+  </data>
+  <data name="&gt;&gt;ComboBx_AlbumID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ComboBx_AlbumID.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;ComboBx_AlbumID.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btn_Add_Update_Track.Name" xml:space="preserve">
+    <value>btn_Add_Update_Track</value>
+  </data>
+  <data name="&gt;&gt;btn_Add_Update_Track.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Add_Update_Track.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btn_Add_Update_Track.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Lyrics.Name" xml:space="preserve">
+    <value>txtBx_Lyrics</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Lyrics.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Lyrics.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Lyrics.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtBx_VideoUrl.Name" xml:space="preserve">
+    <value>txtBx_VideoUrl</value>
+  </data>
+  <data name="&gt;&gt;txtBx_VideoUrl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBx_VideoUrl.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtBx_VideoUrl.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtBx_TrackTitle.Name" xml:space="preserve">
+    <value>txtBx_TrackTitle</value>
+  </data>
+  <data name="&gt;&gt;txtBx_TrackTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBx_TrackTitle.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtBx_TrackTitle.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 363</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>389, 240</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Add/Edit Track</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtBx_Number.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 62</value>
+  </data>
+  <data name="txtBx_Number.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 27</value>
+  </data>
+  <data name="txtBx_Number.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Number.Name" xml:space="preserve">
+    <value>txtBx_Number</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Number.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Number.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Number.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ComboBx_AlbumID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 163</value>
+  </data>
+  <data name="ComboBx_AlbumID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 28</value>
+  </data>
+  <data name="ComboBx_AlbumID.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;ComboBx_AlbumID.Name" xml:space="preserve">
+    <value>ComboBx_AlbumID</value>
+  </data>
+  <data name="&gt;&gt;ComboBx_AlbumID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ComboBx_AlbumID.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;ComboBx_AlbumID.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_Add_Update_Track.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Add_Update_Track.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 205</value>
+  </data>
+  <data name="btn_Add_Update_Track.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 29</value>
+  </data>
+  <data name="btn_Add_Update_Track.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btn_Add_Update_Track.Text" xml:space="preserve">
+    <value>Add/Update</value>
+  </data>
+  <data name="&gt;&gt;btn_Add_Update_Track.Name" xml:space="preserve">
+    <value>btn_Add_Update_Track</value>
+  </data>
+  <data name="&gt;&gt;btn_Add_Update_Track.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Add_Update_Track.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btn_Add_Update_Track.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtBx_Lyrics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 130</value>
+  </data>
+  <data name="txtBx_Lyrics.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBx_Lyrics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 27</value>
+  </data>
+  <data name="txtBx_Lyrics.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Lyrics.Name" xml:space="preserve">
+    <value>txtBx_Lyrics</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Lyrics.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Lyrics.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtBx_Lyrics.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtBx_VideoUrl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 96</value>
+  </data>
+  <data name="txtBx_VideoUrl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 27</value>
+  </data>
+  <data name="txtBx_VideoUrl.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txtBx_VideoUrl.Name" xml:space="preserve">
+    <value>txtBx_VideoUrl</value>
+  </data>
+  <data name="&gt;&gt;txtBx_VideoUrl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBx_VideoUrl.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtBx_VideoUrl.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtBx_TrackTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 28</value>
+  </data>
+  <data name="txtBx_TrackTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 27</value>
+  </data>
+  <data name="txtBx_TrackTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtBx_TrackTitle.Name" xml:space="preserve">
+    <value>txtBx_TrackTitle</value>
+  </data>
+  <data name="&gt;&gt;txtBx_TrackTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBx_TrackTitle.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtBx_TrackTitle.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 167</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 20</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Album ID</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 133</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Lyrics</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 99</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 20</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Video URL</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 65</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 31</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Track Title</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="backgroundWorker2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>214, 17</value>
+  </metadata>
+  <data name="webView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1226, 363</value>
+  </data>
+  <data name="webView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>513, 256</value>
+  </data>
+  <data name="webView.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;webView.Name" xml:space="preserve">
+    <value>webView</value>
+  </data>
+  <data name="&gt;&gt;webView.Type" xml:space="preserve">
+    <value>Microsoft.Web.WebView2.WinForms.WebView2, Microsoft.Web.WebView2.WinForms, Culture=neutral, PublicKeyToken=2a8ab48044d2601e</value>
+  </data>
+  <data name="&gt;&gt;webView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;webView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_EditSelectedTrack.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_EditSelectedTrack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>631, 625</value>
+  </data>
+  <data name="btn_EditSelectedTrack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 29</value>
+  </data>
+  <data name="btn_EditSelectedTrack.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btn_EditSelectedTrack.Text" xml:space="preserve">
+    <value>Edit Selected Track</value>
+  </data>
+  <data name="&gt;&gt;btn_EditSelectedTrack.Name" xml:space="preserve">
+    <value>btn_EditSelectedTrack</value>
+  </data>
+  <data name="&gt;&gt;btn_EditSelectedTrack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_EditSelectedTrack.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_EditSelectedTrack.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1763, 687</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker1.Name" xml:space="preserve">
+    <value>backgroundWorker1</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker1.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System.ComponentModel.EventBasedAsync, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker2.Name" xml:space="preserve">
+    <value>backgroundWorker2</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker2.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System.ComponentModel.EventBasedAsync, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
