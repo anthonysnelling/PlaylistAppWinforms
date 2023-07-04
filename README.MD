@@ -3,3 +3,5 @@ for storing the albums and tracks data. Mainly for practice and experimenting. Y
 
 <h2><u><b>NOTE: </b></u></h2> the mysql database is hosted locally,
  I used MAMP to easily set up a local mysql database and make an albums and tracks tables. So if you wanted to you could do the same.
+ 
+ ![Alt text](./Screenshot.png?raw=true "Screenshot")
